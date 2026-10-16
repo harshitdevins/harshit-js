@@ -54,17 +54,17 @@ let cart1 = {
     item: "Laptop",
     price: 50000
 };
-
+  
 let cart2 = cart1;
 
 cart2.price = 40000;
 
 console.log(cart1.price);
-console.log(cart2.price);
+console.log(cart2.price);       
   
  /*
  Explanation:
-1. cart1 stores a reference to an object.
+1. cart1 stores a reference to an object. 
 2. cart2 = cart1 copies the reference, not the object.
 3. Both variables refer to the same object.
 4. Changing cart2.price also affects the value accessed through cart1.
